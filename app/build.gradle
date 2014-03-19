@@ -17,10 +17,7 @@ dependencies {
 }
 
 retrolambda {
-    compile "net.orfjackal.retrolambda:retrolambda:1.1.2"
     jdk "/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home"
-    oldJdk "/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"
-    javaVersion JavaVersion.VERSION_1_7
 }
 
 android {
