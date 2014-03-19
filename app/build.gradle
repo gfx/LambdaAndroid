@@ -11,13 +11,13 @@ buildscript {
 apply plugin: 'android'
 apply plugin: 'retrolambda'
 
+retrolambda {
+    jdk "/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home"
+}
+
 dependencies {
     compile 'com.android.support:appcompat-v7:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
-}
-
-retrolambda {
-    jdk "/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home"
 }
 
 android {
